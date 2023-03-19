@@ -1,0 +1,46 @@
+{% extends "home.html" %}
+{% block content %}
+<section class="text-center ">
+    <form class="myform  text-center" action="" method="POST">
+        <p> Kindly Complete the registration by filling the Form </p>
+        <div class="container">
+        <h1>   {{ email }}  </h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <input class="text-center" type="text" required id="first_name" name="first_name" placeholder=" Enter First Name">
+                </div>
+            </div>
+        </div>
+       
+        <div class="container">
+            <div class="row">  
+                <div class="col">
+                    <input type="text" class="text-center" required  name="last_name" placeholder="Enter Last Name" >
+                </div>
+            </div>
+        </div>
+       
+        <div class="container">
+            <div class="row"> 
+                <div class="col">
+                    <input type="text" class="text-center" required id="email" name="email" placeholder=" Enter EMAIL">  
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+            
+                <div class="col">
+                    <input type="password" class="text-center" required id="product" name="pin" placeholder="Enter 4 Digit Pin" >
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <button type="submit" class="btn "> Register </button>
+        </div>
+        {% csrf_token %}
+    </form>
+</section>
+{% endblock %}

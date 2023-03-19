@@ -1,0 +1,28 @@
+{% extends "home.html" %}
+{% block content %}
+<section class="text-center login-page">
+    <form class="myform  text-center" action="" method="POST">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                <input type="text" id="tittle" class="text-center" name="title" required  placeholder="Enter Tittle">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col"> 
+  
+                    <textarea type="textarea" class="text-center" id="content" name="content" placeholder="Enetr Content"></textarea>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <button type="submit" class="btn btn-default"> Post Article </button>
+            
+        </div>
+        {% csrf_token %}
+    </form>
+    </section>
+{% endblock %}

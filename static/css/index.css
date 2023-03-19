@@ -1,0 +1,290 @@
+        .body {background-color: #816E55;}
+    .speakeasy-and-purge{
+      margin-top: 60px;
+      
+      width: 100%
+    }
+
+     @media(min-width:700px){
+     .speakeasy-and-purge{
+      margin-top: 60px;
+      width: 1200px;
+    }
+
+   
+ }
+    @media(max-width:700px){
+     .speakeasy-and-purge{
+      margin-top: 60px;
+      width: 320px;
+    }
+
+   
+ }
+    .social-media{
+      margin-top: 50px;
+      margin-bottom : 10px;
+        
+
+    }
+    .copyright{
+      color: #816E55;
+    }
+    .footer{
+      margin-top:100px;
+    }
+
+  .fab{
+  padding: 8px;
+  margin-right: 8px;
+  width: 30px;
+  height: 30px;
+  background: #816E55;
+  border-radius: 15px;
+  color: white;
+  
+}
+ @media(max-width:700px){
+     .living{
+    background:#B5B4AC;
+    width :300px;
+    height : 200px;
+    text-align: center;
+    margin : 20px;
+  }
+   
+ }
+ 
+    @media(min-width:701px){
+    .living{
+    background:#B5B4AC;
+    width :1000px;
+    height : 200px;
+    text-align: center;
+     margin : 20px;
+          }
+      
+      }
+    p,  h4, h1{
+      color : white
+    }
+    .free-from-beast{
+
+      margin-top: 100px
+    }
+    .purging{
+      text-align: center;
+      margin-top : 80px;
+      margin-bottom : 60px;
+      color : white;
+          }
+      .footer{
+        background-color: #F6F6F6
+        
+      }
+
+@media(min-width:700px){
+.speak-img{
+width : 1000px;
+height : 400px
+      }
+  
+  }
+@media(max-width:700px){
+.speak-img{
+width : 300px;
+height : 200px;
+    }
+
+}
+@media(max-width:702px){
+.yugo-img, .funnel-img{
+width : 290px;
+height : 400px;
+margin-left : 5px
+    }
+
+}
+@media(min-width:700px){
+.yugo-img, .funnel-img{
+width : 500px;
+height : 400px;
+    }
+
+}
+
+.btn{
+  background : #F6F6F6;
+  color :#816E55;
+}
+
+.btn-member{
+  background : #816E55;
+  color : #F6F6F6;
+   width :120px;
+  height : 50px
+}
+.member{
+  text-decoration: none;
+  color : white;
+ 
+}
+@media(min-width:700px){
+.learn{
+  width : 500px;
+  height : 70px;
+  background : #fff
+
+}
+}
+@media(max-width:700px){
+.learn{
+  width : 300px;
+  height : 80px;
+  background : #fff
+
+}
+}
+
+.anger-content{
+    margin-top: 50px;
+
+}
+
+.free-from-beast{
+  margin-top: 30px;
+
+}
+.vision{
+  margin-top: 50px;
+}
+.vision-statement{
+  margin-top: 90px;
+
+}
+.btn-subscribe{
+  background: #fff;
+  color : #816E55
+}
+input[type="file"] {
+    background: #fff;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+@media(max-width:700px){
+  input[type="text"],button[type="submit"],input[type="file"], 
+  textarea[type="textarea"] , input[type="password"], input[type="textarea"]{
+  margin:1px ;
+  width:100% ;
+  height: 60%;
+  padding: 1px;
+  outline: none;
+  margin-top: 40px;
+  border-radius: 25px;
+  
+  
+  }
+}
+
+@media(max-width:700px){
+  textarea[type="textarea"] {
+  margin:1px ;
+  width: 90%;
+  height: 100%;
+  padding: 1px;
+  outline: none;
+  margin-top: 40px;
+  
+  
+  }
+}
+@media(min-width:700px){
+  input[type="textarea"]{
+  margin:5px ;
+  width: 90%;
+  height: 200px;
+  padding: 1px;
+  outline: none;
+    margin-top: 40px;
+
+  
+  
+  }
+}
+
+@media(min-width:700px){
+  input[type="text"],button[type="submit"],input[type="file"], 
+  textarea[type="textarea"] , input[type="password"]{
+  margin:1px ;
+  width: 50%;
+  height: 60%;
+  padding: 1px;
+  outline: none;
+  margin-top: 40px;
+  border-radius: 25px;
+
+  
+  
+  }
+}
+.btn{
+    width: 150px
+}
+section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.card,social-media{
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 10px; 
+}
+.video{
+  max-width:400px;
+   max-height:200px
+}
+
+
+@media(min-width:700px){
+  .card{
+  
+    width : 600px
+  
+  
+  }
+}
+@media(max-width:700px){
+  .card{
+  
+    width : 330px
+  
+  
+  }
+}
+.btn{
+  background : #F6F6F6;
+  color :#816E55;
+}
+
+.btn-member{
+  background : #816E55;
+  color : #F6F6F6;
+   width :120px;
+  height : 50px
+}
+@media(min-width:700px){
+  .card{
+  
+    width : 600px
+  
+  
+  }
+}
+.edith_delete{
+  margin-right :40px
+}
+   .video{
+  max-width:200px;
+   max-height:200px
+}

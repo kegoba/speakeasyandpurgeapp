@@ -1,0 +1,30 @@
+
+{% extends "home.html" %}
+{% block content %}
+<section class="text-center login-page">
+    <form class="myform  text-center" enctype="multipart/form-data" action="" method="POST">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                <input type="text" class="text-center" id="tittle" name="title" required  placeholder="TITTLE OF THE VIDEO">
+            
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <input type="file" class="text-center" id="video" name="video" placeholder="UPLOAD VIDEO" accept="video/*">
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <button type="submit" class="btn btn-default"> Upload </button>
+           
+        </div>
+        {% csrf_token %}
+        {{form.as_p}}
+    </form>
+    </section>
+{% endblock %}

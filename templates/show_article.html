@@ -1,0 +1,20 @@
+
+{% extends "home.html" %}
+{% block content %}
+<section class="text-center login-page">
+ {% for article in articles %}
+ <div class="card"> 
+ 	<div class="card-header"> 
+ 		<span class="font-weight-bold">{{article.title}}</span> &middot; 
+ 		
+ 	</div> 
+ 	<div class="card-body"> {{article.content}} </div>
+   <div >
+   <a class="edith_delete" href='{% url "Delete_article" article.id %}'> <i class="fa fa-trash"></i></a>
+  <a class=""  href='{% url "Edith_article" article.id %}'  > <i class="fa fa-pencil"></i> </a>
+  </div>	
+ </div> 
+	   <br /> 
+ 	{% endfor %} 
+    </section>
+{% endblock %}
